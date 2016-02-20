@@ -75,8 +75,6 @@ class ItemTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier("CellTypeItem", forIndexPath: indexPath) as! ItemTableViewCell
 
         cell.name.text = item.name
-        cell.itemID.text = "\(item.itemID)"
-        cell.itemDescription.text = item.description
         cell.value.text = "\(item.value)"
  
         // set thumbnail image
